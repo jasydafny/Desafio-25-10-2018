@@ -1,0 +1,49 @@
+body{
+    width: 80vw;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: white;
+}
+header{
+    background-image: url('imagens/maniac.jpg');
+    height: 600px;
+    opacity: 0.5;
+    background-size:cover;
+}
+header nav{
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    text-decoration: none;
+}
+
+header nav img {
+    width: 200px;
+    height: 200px;
+    top: 0;
+    padding: left;
+    position: relative;
+   
+}
+
+.logo{
+    display: none;
+    background-image: url('imagens/logoN.png');
+    height: 40px;
+    /* opacity: 0.5; */
+    background-size:cover;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.direita {
+   align-content: space-evenly;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
